@@ -1,0 +1,269 @@
+.center {
+    display: block;
+    margin-left: 150px;
+    margin-right: auto;
+  
+  }
+
+.center2{
+    display: block;
+    margin-left: 550px;
+    margin-right: auto;
+  
+}
+
+.center3{
+    display: block;
+    margin-left: 650px;
+    margin-right: auto;
+}
+
+.center4{
+    display: block;
+    margin-left: 550px;
+    margin-right: auto; 
+}
+
+.center5{
+    display: block;
+    margin-left: 350px;
+}
+
+
+/* From Uiverse.io by alexruix */ 
+.card {
+    width: 190px;
+    padding: 1.9rem 1.2rem;
+    text-align: center;
+    background: #2a2b38;
+   }
+   
+   /*Inputs*/
+   .field {
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    background-color: #1f2029;
+    border-radius: 4px;
+    padding: .5em 1em;
+   }
+   
+   .input-icon {
+    height: 1em;
+    width: 1em;
+    fill: #ffeba7;
+   }
+   
+   .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #d3d3d3;
+   }
+   
+   /*Text*/
+   .title {
+    margin-bottom: 1rem;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #f5f5f5;
+   }
+   
+   /*Buttons*/
+   .btn {
+    margin: 1rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: .8em;
+    text-transform: uppercase;
+    padding: 0.6em 1.2em;
+    background-color: #ffeba7;
+    color: #5e6681;
+    box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+    transition: all .3s ease-in-out;
+   }
+   
+   .btn-link {
+    color: #f5f5f5;
+    display: block;
+    font-size: .75em;
+    transition: color .3s ease-out;
+   }
+   
+   /*Hover & focus*/
+   .field input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   }
+   
+   .btn:hover {
+    background-color: #5e6681;
+    color: #ffeba7;
+    box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+   }
+   
+   .btn-link:hover {
+    color: #a7fff9;
+   }
+   
+.button-submit{
+    color: cadetblue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #af4caa; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a04556; /* Verde mais escuro */
+}
+
+#videoContainer {
+    margin-top: 20px;
+}
+
+/* From Uiverse.io by mi-series */ 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .form_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EDDCD9;
+    height: auto;
+    width: auto;
+    border: 2px solid #264143;
+    border-radius: 20px;
+    box-shadow: 3px 4px 0px 1px #E99F4C;
+  }
+  
+  .title {
+    color: #264143;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  .sub_title {
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  
+  .form_group {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 10px;
+  }
+  
+  .form_style {
+    outline: none;
+    border: 2px solid #264143;
+    box-shadow: 3px 4px 0px 1px #E99F4C;
+    width: 290px;
+    padding: 12px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  
+  .form_style:focus, .btn:focus {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px #E99F4C;
+  }
+  
+  .btn {
+    padding: 15px;
+    margin: 25px 0px;
+    width: 290px;
+    font-size: 15px;
+    background: #DE5499;
+    border-radius: 10px;
+    font-weight: 800;
+    box-shadow: 3px 3px 0px 0px #E99F4C;
+  }
+  
+  .btn:hover {
+    opacity: .9;
+  }
+  
+  .link {
+    font-weight: 800;
+    color: #264143;
+    padding: 5px;
+  }
+
+
+.contador {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #e63946 !important;
+}
+
+h3{
+    color:#cf8080 !important;
+}
+
+#contador {
+    font-size: 24px;
+    color: #2a9d8f;
+}
+
+h1{
+    color: rgb(238, 50, 50) !important;
+}
+
+h5{
+    color: crimson !important;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #d62839;
+}
+
+hr {
+    border: none; /* Remove a borda padrão */
+    height: 4px; /* Altura da linha */
+    background-color: #ff6f61; /* Cor da linha */
+    margin: 20px 0; /* Margens acima e abaixo */
+}
